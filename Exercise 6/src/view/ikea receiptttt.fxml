@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.BoxBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="438.0" prefWidth="284.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="42.0" fitWidth="170.0" layoutX="57.0" layoutY="391.0">
+         <image>
+            <Image url="@../Downloads/barcode.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="200.0" layoutX="42.0" opacity="0.2">
+         <image>
+            <Image url="@../Downloads/download%20(333.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="200.0" layoutX="242.0" opacity="0.2">
+         <image>
+            <Image url="@../Downloads/download%20(333.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="200.0" layoutX="-65.0" layoutY="70.0" opacity="0.2">
+         <image>
+            <Image url="@../Downloads/download%20(333.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="200.0" layoutX="135.0" layoutY="70.0" opacity="0.2">
+         <image>
+            <Image url="@../Downloads/download%20(333.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="200.0" layoutX="42.0" layoutY="140.0" opacity="0.2">
+         <image>
+            <Image url="@../Downloads/download%20(333.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="200.0" layoutX="-158.0" opacity="0.2">
+         <image>
+            <Image url="@../Downloads/download%20(333.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="200.0" layoutX="-158.0" layoutY="140.0" opacity="0.2">
+         <image>
+            <Image url="@../Downloads/download%20(333.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="200.0" layoutX="242.0" layoutY="140.0" opacity="0.2">
+         <image>
+            <Image url="@../Downloads/download%20(333.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="200.0" layoutX="-65.0" layoutY="210.0" opacity="0.2">
+         <image>
+            <Image url="@../Downloads/download%20(333.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="200.0" layoutX="135.0" layoutY="210.0" opacity="0.2">
+         <image>
+            <Image url="@../Downloads/download%20(333.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="200.0" layoutX="48.0" layoutY="280.0" opacity="0.2">
+         <image>
+            <Image url="@../Downloads/download%20(333.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="200.0" layoutX="-152.0" layoutY="280.0" opacity="0.2">
+         <image>
+            <Image url="@../Downloads/download%20(333.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="200.0" layoutX="248.0" layoutY="280.0" opacity="0.2">
+         <image>
+            <Image url="@../Downloads/download%20(333.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="200.0" layoutX="-65.0" layoutY="350.0" opacity="0.2">
+         <image>
+            <Image url="@../Downloads/download%20(333.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="200.0" layoutX="135.0" layoutY="350.0" opacity="0.2">
+         <image>
+            <Image url="@../Downloads/download%20(333.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="200.0" layoutX="42.0" layoutY="420.0" opacity="0.2">
+         <image>
+            <Image url="@../Downloads/download%20(333.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="200.0" layoutX="-158.0" layoutY="420.0" opacity="0.2">
+         <image>
+            <Image url="@../Downloads/download%20(333.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="200.0" layoutX="242.0" layoutY="420.0" opacity="0.2">
+         <image>
+            <Image url="@../Downloads/download%20(333.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dddddd" height="311.0" layoutX="5.0" layoutY="73.0" opacity="0.66" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" width="275.0">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </Rectangle>
+      <Label contentDisplay="CENTER" graphicTextGap="5.0" layoutX="63.0" layoutY="81.0" lineSpacing="0.2" prefHeight="24.0" prefWidth="170.0" text="OFFICIAL RECEIPT" textOverrun="LEADING_ELLIPSIS">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Line endX="125.0" layoutX="139.0" layoutY="119.0" startX="-119.0" strokeLineJoin="ROUND" />
+            <Line endX="125.0" layoutX="139.0" layoutY="357.0" startX="-119.0" strokeLineJoin="ROUND" />
+         </children>
+      </AnchorPane>
+   </children>
+   <cursor>
+      <Cursor fx:constant="DISAPPEAR" />
+   </cursor>
+   <effect>
+      <Blend />
+   </effect>
+</AnchorPane>
